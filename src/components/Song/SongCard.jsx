@@ -44,7 +44,7 @@ const SongCard = ({
 
   const handlePlay = () => {
     dispatch(setPlayedSong(song))
-    !(playedSong.id === id) && dispatch(getSongURL(filePath))
+    playedSong.id !== id && dispatch(getSongURL(filePath))
     dispatch(setIsPaused(!isPaused))
     logInfo(`${song.title} song played`, { name: song.id })
   }

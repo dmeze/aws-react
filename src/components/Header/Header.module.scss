@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+
+  background-color: white;
+}
+
+.headerTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.userTab {
+  display: flex;
+  align-items: center;
+
+  & > button {
+    font-size: 14px;
+  }
+}
+
+.addBtn {
+  margin-right: 10px;
+  & > svg {
+    margin-right: 5px;
+  }
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 10px;
+}

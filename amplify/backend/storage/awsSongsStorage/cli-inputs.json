@@ -1,0 +1,13 @@
+{
+  "resourceName": "awsSongsStorage",
+  "policyUUID": "30743fa0",
+  "bucketName": "aws-songs-storage",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
